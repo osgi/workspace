@@ -26,7 +26,7 @@ bnd-release	=	https://bndtools.ci.cloudbees.com/job/bnd.master/lastSuccessfulBui
 	        includeStage	=       true; \
 	        nam		=       Central; \
 	        location	=       ~/.bnd/shacache; \
-	        inde		=       ${build}/repository.json
+	        index		=       ${build}/repository.json
 
 -plugin.enroute.releaserepo = \
 	aQute.bnd.deployer.repository.LocalIndexedRepo; \
