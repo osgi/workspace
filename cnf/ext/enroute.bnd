@@ -54,6 +54,13 @@ Service-Component: 				*
 
 test-cases: 					${classes;NAMED;*Test}
 
+#
+# Make sure active dependencies added by bindex are used for resolving
+#
+-resolve.effective = resolve, active
+
+
+
 debug-bundles: \
 	osgi.identity;filter:='(osgi.identity=aQute.xray.plugin)',\
 	osgi.identity;filter:='(osgi.identity=org.apache.felix.metatype)',\
