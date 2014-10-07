@@ -24,7 +24,7 @@ bnd-release	=	https://bndtools.ci.cloudbees.com/job/bnd.master/lastSuccessfulBui
 -plugin.enroute.centralrepo = \
 	aQute.bnd.jpm.Repository; \
 	        includeStage	=       true; \
-	        nam		=       Central; \
+	        name		=       Central; \
 	        location	=       ~/.bnd/shacache; \
 	        index		=       ${build}/repository.json
 
