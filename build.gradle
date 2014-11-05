@@ -1,18 +1,26 @@
 /*
  * Master Gradle build script
  *
- * Depends on bndWorkspace property set by settings.gradle.
+ * Depends on bndPlugin property set by settings.gradle.
+ * and bnd_* values from gradle.properties.
  */
+
+import aQute.bnd.build.Workspace
 
 /* Add bnd gradle plugin as a script dependency */
 buildscript {
-  repositories {
-    jcenter()
-  }
   dependencies {
-    classpath 'biz.aQute.bnd:biz.aQute.bnd.gradle:2.4.0'
+    classpath bndPlugin
   }
 }
+
+/* Initialize the bnd workspace */
+ext.bndWorkspace = Workspace.getWorkspace(rootDir, bnd_cnf)
+if (bndWorkspace == null) {
+  throw new GradleException("Unable to load workspace ${rootDir}/${bnd_cnf}")
+}
+
+ext.cnf = rootProject.project(bnd_cnf)
 
 /* Configure the subprojects */
 subprojects {
