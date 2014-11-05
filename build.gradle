@@ -1,13 +1,16 @@
 /*
  * Master Gradle build script
  *
- * Depends on bndWorkspace and bndURI properties set by settings.gradle.
+ * Depends on bndWorkspace property set by settings.gradle.
  */
 
-/* Add bnd as a script dependency */
+/* Add bnd gradle plugin as a script dependency */
 buildscript {
+  repositories {
+    jcenter()
+  }
   dependencies {
-    classpath files(bndURI)
+    classpath 'biz.aQute.bnd:biz.aQute.bnd.gradle:2.4.0'
   }
 }
 
