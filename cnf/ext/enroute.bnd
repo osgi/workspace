@@ -94,3 +94,5 @@ test-cases: 					${classes;NAMED;*Test}
 #
 
 -resolve.effective = resolve, active
+
+test-reports: test-results
