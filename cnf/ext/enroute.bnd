@@ -72,7 +72,8 @@ test-cases: 			${classes;NAMED;*Test}
  javax.naming.directory;version=0,\
  javax.naming.event;version=0,\
  javax.naming.ldap;version=0,\
- javax.naming.spi;version=0,\ javax.net;version=0,\
+ javax.naming.spi;version=0,\
+ javax.net;version=0,\
  javax.net.ssl;version=0,\
  javax.rmi.ssl;version=0,\
  javax.script;version=0,\
