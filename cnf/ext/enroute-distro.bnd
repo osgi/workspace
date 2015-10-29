@@ -26,9 +26,8 @@
 -runproperties.eqnx: 				\
 	org.apache.felix.http.jettyEnabled=true, \
 	org.apache.felix.http.whiteboardEnabled=true,\
-	osgi.console.enable.builtin=false, \
 	osgi.console=, \
-	org.osgi.service.http.port=8080
+	osgi.console.enable.builtin=false
 
 -runpath.eqnx: 					osgi.enroute.equinox.log.adapter
 -runrequires.eqnx: \
