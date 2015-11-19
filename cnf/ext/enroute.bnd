@@ -93,6 +93,11 @@ test-cases: 			${classes;NAMED;*Test}
  javax.transaction;version=0,\
  javax.transaction.xa;version=0,\
  javax.xml;version=0,\
+ javax.xml.bind;version=0,\
+ javax.xml.bind.attachment;version=0,\
+ javax.xml.bind.annotation;version=0,\
+ javax.xml.bind.annotation.adapters;version=0,\
+ javax.xml.bind.helpers;version=0,\
  javax.xml.crypto;version=0,\
  javax.xml.crypto.dom;version=0,\
  javax.xml.crypto.dsig;version=0,\
@@ -111,6 +116,14 @@ test-cases: 			${classes;NAMED;*Test}
  javax.xml.transform.stax;version=0,\
  javax.xml.transform.stream;version=0,\
  javax.xml.validation;version=0,\
+ javax.xml.ws;version=0,\
+ javax.xml.ws.handler;version=0,\
+ javax.xml.ws.handler.soap;version=0,\
+ javax.xml.ws.http;version=0,\
+ javax.xml.ws.soap;version=0,\
+ javax.xml.ws.spi;version=0,\
+ javax.xml.ws.spi.http;version=0,\
+ javax.xml.ws.wsaddressing;version=0,\
  javax.xml.xpath;version=0,\
  org.ietf.jgss;version=0,\
  org.w3c.dom;version=0,\
