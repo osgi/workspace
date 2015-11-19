@@ -17,6 +17,7 @@ Service-Component: 		*
 
 test-cases: 			${classes;NAMED;*Test}
 -resolve.effective:		resolve, active
+-releaserepo:                   Release
 
 -plugin.4.Central:  \
 \
