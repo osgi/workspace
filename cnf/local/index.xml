@@ -1,3 +1,64 @@
 <?xml version="1.0" encoding="utf-8"?>
-<repository increment="1401871936476" name="Local" xmlns="http://www.osgi.org/xmlns/repository/v1.0.0">
+<repository increment="1485002942000" name="Local" xmlns="http://www.osgi.org/xmlns/repository/v1.0.0">
+  <resource>
+    <capability namespace="osgi.identity">
+      <attribute name="osgi.identity" value="osgi.enroute.bndtools.templates"/>
+      <attribute name="type" value="osgi.bundle"/>
+      <attribute name="version" type="Version" value="1.0.0.201701211246"/>
+    </capability>
+    <capability namespace="osgi.content">
+      <attribute name="osgi.content" value="139b73e1cf5db720ba6399094e2285156be21ef5eee3107ff5f042e82feb2170"/>
+      <attribute name="url" value="osgi.enroute.bndtools.templates/osgi.enroute.bndtools.templates-1.0.0.jar"/>
+      <attribute name="size" type="Long" value="28475"/>
+      <attribute name="mime" value="application/vnd.osgi.bundle"/>
+    </capability>
+    <capability namespace="osgi.wiring.bundle">
+      <attribute name="osgi.wiring.bundle" value="osgi.enroute.bndtools.templates"/>
+      <attribute name="bundle-version" type="Version" value="1.0.0.201701211246"/>
+    </capability>
+    <capability namespace="osgi.wiring.host">
+      <attribute name="osgi.wiring.host" value="osgi.enroute.bndtools.templates"/>
+      <attribute name="bundle-version" type="Version" value="1.0.0.201701211246"/>
+    </capability>
+    <capability namespace="org.bndtools.template">
+      <attribute name="org.bndtools.template" value="project"/>
+      <attribute name="name" value="API Bundle"/>
+      <attribute name="category" value="OSGi enRoute"/>
+      <attribute name="dir" value="api/template"/>
+      <attribute name="icon" value="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABEAAAAQCAMAAADH72RtAAAAolBMVEUAAAAAAAAAAAAAAADR0tQAAAAAAAD///////8AAAAAAAAAAAD///8AAADy8vPIycvGx8kAAAB0dXcAAAAAAAAAAAAAAAC5u73///8AAAD///8AAAD////IycthYmT7+/yIiYz29va5u73V1tesrrGfoaRFRUckJCXv7/De3+C1trmpq66TlZhvcHJjZGZVVlj4+fna29yYmp18fX91dnlUVVdUVt5GAAAAG3RSTlMA8KAg/uDQz3BgQDAfEP7968C1sJCCgH9XSjwueS2iAAAArklEQVQY003PVw6DQAwEUJb0Qnofb2EJPYTU+18tBiLEfFlPGlt2mnguBjOnmyEA0aUdjDFq4LVwllQl2bSyoFcWonjq4x9GjxJSXYGM5jVcyKAShTgZ1bLyUUkkgVBX0Fv2WQKF4Is77VlcyRIRcDMsgkXk3LK811huYeJMoci8SQGFjH0JlwVS+xbckoGOsHZ6AkgpLxFbX3+AA99yh7CaOKkS20n7yGk8njfTD/faFDILQR6ZAAAAAElFTkSuQmCC"/>
+      <attribute name="help" value="api/help.xml"/>
+      <attribute name="engine" value="mustache"/>
+    </capability>
+    <capability namespace="org.bndtools.template">
+      <attribute name="org.bndtools.template" value="project"/>
+      <attribute name="name" value="Provider/Adapter Bundle"/>
+      <attribute name="category" value="OSGi enRoute"/>
+      <attribute name="dir" value="provider/template"/>
+      <attribute name="icon" value="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABEAAAAQCAMAAADH72RtAAAAolBMVEUAAAAAAAAAAAAAAADR0tQAAAAAAAD///////8AAAAAAAAAAAD///8AAADy8vPIycvGx8kAAAB0dXcAAAAAAAAAAAAAAAC5u73///8AAAD///8AAAD////IycthYmT7+/yIiYz29va5u73V1tesrrGfoaRFRUckJCXv7/De3+C1trmpq66TlZhvcHJjZGZVVlj4+fna29yYmp18fX91dnlUVVdUVt5GAAAAG3RSTlMA8KAg/uDQz3BgQDAfEP7968C1sJCCgH9XSjwueS2iAAAArklEQVQY003PVw6DQAwEUJb0Qnofb2EJPYTU+18tBiLEfFlPGlt2mnguBjOnmyEA0aUdjDFq4LVwllQl2bSyoFcWonjq4x9GjxJSXYGM5jVcyKAShTgZ1bLyUUkkgVBX0Fv2WQKF4Is77VlcyRIRcDMsgkXk3LK811huYeJMoci8SQGFjH0JlwVS+xbckoGOsHZ6AkgpLxFbX3+AA99yh7CaOKkS20n7yGk8njfTD/faFDILQR6ZAAAAAElFTkSuQmCC"/>
+      <attribute name="help" value="provider/help.xml"/>
+      <attribute name="engine" value="mustache"/>
+    </capability>
+    <capability namespace="org.bndtools.template">
+      <attribute name="org.bndtools.template" value="project"/>
+      <attribute name="name" value="Test"/>
+      <attribute name="category" value="OSGi enRoute"/>
+      <attribute name="dir" value="test/template"/>
+      <attribute name="icon" value="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABEAAAAQCAMAAADH72RtAAAAolBMVEUAAAAAAAAAAAAAAADR0tQAAAAAAAD///////8AAAAAAAAAAAD///8AAADy8vPIycvGx8kAAAB0dXcAAAAAAAAAAAAAAAC5u73///8AAAD///8AAAD////IycthYmT7+/yIiYz29va5u73V1tesrrGfoaRFRUckJCXv7/De3+C1trmpq66TlZhvcHJjZGZVVlj4+fna29yYmp18fX91dnlUVVdUVt5GAAAAG3RSTlMA8KAg/uDQz3BgQDAfEP7968C1sJCCgH9XSjwueS2iAAAArklEQVQY003PVw6DQAwEUJb0Qnofb2EJPYTU+18tBiLEfFlPGlt2mnguBjOnmyEA0aUdjDFq4LVwllQl2bSyoFcWonjq4x9GjxJSXYGM5jVcyKAShTgZ1bLyUUkkgVBX0Fv2WQKF4Is77VlcyRIRcDMsgkXk3LK811huYeJMoci8SQGFjH0JlwVS+xbckoGOsHZ6AkgpLxFbX3+AA99yh7CaOKkS20n7yGk8njfTD/faFDILQR6ZAAAAAElFTkSuQmCC"/>
+      <attribute name="help" value="test/help.xml"/>
+      <attribute name="engine" value="mustache"/>
+    </capability>
+    <capability namespace="org.bndtools.template">
+      <attribute name="org.bndtools.template" value="project"/>
+      <attribute name="name" value="Application"/>
+      <attribute name="category" value="OSGi enRoute"/>
+      <attribute name="dir" value="appl/template"/>
+      <attribute name="icon" value="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABEAAAAQCAMAAADH72RtAAAAolBMVEUAAAAAAAAAAAAAAADR0tQAAAAAAAD///////8AAAAAAAAAAAD///8AAADy8vPIycvGx8kAAAB0dXcAAAAAAAAAAAAAAAC5u73///8AAAD///8AAAD////IycthYmT7+/yIiYz29va5u73V1tesrrGfoaRFRUckJCXv7/De3+C1trmpq66TlZhvcHJjZGZVVlj4+fna29yYmp18fX91dnlUVVdUVt5GAAAAG3RSTlMA8KAg/uDQz3BgQDAfEP7968C1sJCCgH9XSjwueS2iAAAArklEQVQY003PVw6DQAwEUJb0Qnofb2EJPYTU+18tBiLEfFlPGlt2mnguBjOnmyEA0aUdjDFq4LVwllQl2bSyoFcWonjq4x9GjxJSXYGM5jVcyKAShTgZ1bLyUUkkgVBX0Fv2WQKF4Is77VlcyRIRcDMsgkXk3LK811huYeJMoci8SQGFjH0JlwVS+xbckoGOsHZ6AkgpLxFbX3+AA99yh7CaOKkS20n7yGk8njfTD/faFDILQR6ZAAAAAElFTkSuQmCC"/>
+      <attribute name="help" value="appl/help.xml"/>
+      <attribute name="engine" value="mustache"/>
+      <attribute name="metaType" value="OSGI-INF/metatype/osgi.enroute.bndtools.templates.application.xml"/>
+    </capability>
+    <requirement namespace="osgi.ee">
+      <directive name="filter" value="(&amp;(osgi.ee=JavaSE)(version=1.7))"/>
+    </requirement>
+  </resource>
 </repository>
